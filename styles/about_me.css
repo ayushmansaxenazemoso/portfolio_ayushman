@@ -1,0 +1,121 @@
+
+#skills {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    color: #2694d8;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills-container span {
+    background: #2694d8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.2s ease-in;
+}
+
+.skills-container span:hover {
+    transform: scale(1.1);
+    color: #1d7bb5;
+    background-color: #ffffff;
+    cursor:context-menu;
+}
+
+
+/* experience */
+#projects {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    color: #2694d8;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.projects-table {
+    width: 100%;
+    max-width: 1300px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f4f7fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projects-table th, .projects-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #4d4b4b;
+}
+
+.projects-table th {
+    background-color: #2694d8;
+    color: white;
+    text-align: center; 
+}
+
+.projects-table td {
+    /* background: linear-gradient(135deg, #1e1e1e, #2a2a2a); */
+
+    background-color: #2f2e2e;
+}
+
+.projects-table tr {
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.projects-table tr:hover {
+
+    background-color: #e0f7fa; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.projects-table td:hover {
+    color: #00796b; 
+}
+
+.projects-table a.project-link {
+    color: #2694d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects-table a.project-link:hover {
+    text-decoration: underline;
+    color: #00796b;
+}
+
+.projects-table ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.projects-container {
+    overflow-x: auto;
+    overflow-y: auto;
+}

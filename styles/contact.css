@@ -1,0 +1,170 @@
+/* Contact Page Styling */
+#contact {
+    text-align: center;
+    justify-content: center;
+    margin: 5% auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px #2694d880;
+}
+
+/* Section Title */
+#contact h2 {
+    font-size: 2rem;
+    color: #2694d8;
+    margin-bottom: 10px;
+    /* font-family: 'Varela Round', sans-serif; */
+}
+
+#contact p {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #2694d8;
+    border-radius: 8px;
+    background-color: #333;
+    color: #ffffff;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #1d7bb5;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    width: 35%;
+    border-radius: 10%;
+    border-radius: 50px;
+    background-color: #2694d8;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #000000 !important;}
+.above-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Social Media Section */
+.social-links {
+    margin-top: 6px;
+}
+
+/* "Connect with me"  */
+.social-links p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Social Media Icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icons a {
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #737679;
+    padding: 0.1px;
+    background-color: #82837d;
+   
+    
+}
+
+.icons img:hover {
+
+    border: 2px solid #207ad3;
+    padding: 0.1px;
+    background-color: #3794f1;
+  
+   
+    
+}
+
+.icons a:hover {
+    transform: scale(1.2);
+    
+}
+
+
+#contact-form {
+    width: 90%;
+    max-width: 1800px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    margin: 2px solid white !important;
+}
+
+.submit-btn:hover {
+    background-color: #1d7bb5; 
+    /* transform: scale(1.05); 
+    /* box-shadow: 0px 0px 10px rgba(38, 148, 216, 0.7); Glowing effect */
+    color: #ffffff !important;
+    cursor: pointer;
+
+}
+
+
+#submit-msg {
+    margin-top: 10px; 
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    color: #25b825 !important;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/x-icon" href="../assets/image/a.jpg">
+
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="../index.html">Home</a></li>
+            <li class="item"><a href="./about_me.html">About</a></li>
+            <!-- <li class="item"><a href="./skills.html">Skills</a></li> -->
+            <li class="item"><a href="./gallery.html">Gallery</a></li>
+            <li class="item"><a href="./contact.html" class="active">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        
+        <form id="contact-form">
+            <div class="input-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required 
+                pattern="[A-Za-z\s]+" title="Only Alphabets and Spaces allowed">
+            </div>
+        
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+        
+            <div class="input-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="Enter your phone number" maxlength="10" required 
+                pattern="^\d{10}$" title="Phone number must be exactly 10 digits">
+            </div>
+        
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message" rows="4" ></textarea>
+            </div>
+        
+            <div class="above-btn">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+            <div class="submit-msg">
+                <p id="submit-msg">Form has been submitted</p>
+            </div>
+        </form>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <p>Connect with me</p>
+            <div class="icons">
+                <a href="https://github.com/ayushmansaxenazemoso" target="_blank">
+                    <img src="../assets/image/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/ayushman-saxena-2a1485211/" target="_blank">
+                    <img src="../assets/image/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://leetcode.com/u/ayushmansxn01/" target="_blank">
+                    <img src="../assets/image/leetcode.png" alt="LeetCode">
+                </a>
+                <a href="../assets/document/Ayushman_saxena_resume.pdf" target="_blank">
+                    <img src="../assets/image/resume.jpeg" alt="Resume">
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+
+<footer>
+    <p>  &copy 2025 Ayushman Saxena.  All rights reserved.</p>
+</footer>
+<script src="../scripts/script.js"></script>
+</html>
